@@ -33,3 +33,4 @@ jobs:
           alert-threshold: '1%'
           comment-on-alert: true
           gh-repository: github.com/nightly-labs/benchmarks
+          benchmark-data-dir-path: ''
