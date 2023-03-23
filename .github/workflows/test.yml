@@ -17,6 +17,9 @@ jobs:
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: nightly
+
+      - name: Run benchmarks
+        run: cargo bench --bench benchmark -- --output-format=bencher | tee benchmarks.txt
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1.16.2
         with:
