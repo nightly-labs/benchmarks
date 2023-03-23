@@ -1,2 +1,0 @@
-test fib 20 ... bench:       18121 ns/iter (+/- 185)
-
