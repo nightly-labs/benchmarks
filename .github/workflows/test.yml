@@ -32,3 +32,4 @@ jobs:
           # Show alert with commit comment on detecting possible performance regression
           alert-threshold: '1%'
           comment-on-alert: true
+          gh-repository: github.com/nightly-labs/benchmarks
