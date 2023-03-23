@@ -9,7 +9,7 @@ fn fibonacci(n: u64) -> u64 {
 }
 
 fn criterion_benchmark(c: &mut Criterion) {
-    c.bench_function("fib 10", |b| b.iter(|| fibonacci(black_box(20))));
+    c.bench_function("fib 10", |b| b.iter(|| fibonacci(black_box(10))));
 }
 
 criterion_group!(benches, criterion_benchmark);
