@@ -21,7 +21,7 @@ jobs:
       - name: test
         run: ls
       - name: Run benchmark
-        run: cargo +nightly bench | tee benchmarks.txt
+        run: cargo bench --bench benchmark -- --output-format=bencher | tee benchmarks.txt
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1.16.2
         with:
