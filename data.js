@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679586744082,
-  "repoUrl": "https://github.com/nightly-labs/benchmarks",
+  "lastUpdate": 1679587100184,
+  "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
       {
@@ -51,6 +51,32 @@ window.BENCHMARK_DATA = {
             "name": "fib 10",
             "value": 166,
             "range": "± 9",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "nightly-labs",
+            "username": "nightly-labs"
+          },
+          "committer": {
+            "name": "nightly-labs",
+            "username": "nightly-labs"
+          },
+          "id": "a5784eebf0d6499fdc1286a412f7d0955d5b88bf",
+          "message": "E2e bench",
+          "timestamp": "2023-02-15T14:21:56Z",
+          "url": "https://github.com/nightly-labs/exchange/pull/324/commits/a5784eebf0d6499fdc1286a412f7d0955d5b88bf"
+        },
+        "date": 1679587099439,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 2098188,
+            "range": "± 75786",
             "unit": "ns/iter"
           }
         ]
