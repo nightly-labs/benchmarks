@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679673966140,
+  "lastUpdate": 1679674145772,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -89,6 +89,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 66364,
             "range": "± 6213",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ddfcb1c9ede6e9b338fd4db7d02b075eeca74ded",
+          "message": "Merge pull request #371 from nightly-labs/add-multiple-threads-to-liquidator\n\nadd multiple threads to liquidator",
+          "timestamp": "2023-03-24T17:03:36+01:00",
+          "tree_id": "7d5a55c3e3b48ff5cb2f35bdf0fa8a7501802af6",
+          "url": "https://github.com/nightly-labs/exchange/commit/ddfcb1c9ede6e9b338fd4db7d02b075eeca74ded"
+        },
+        "date": 1679674145008,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 55106,
+            "range": "± 9998",
             "unit": "ns/iter"
           }
         ]
