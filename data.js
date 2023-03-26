@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679832183216,
+  "lastUpdate": 1679840657456,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -179,6 +179,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 68605,
             "range": "± 6618",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c1930cabd53a6654491bf56f5b343582bc84ed12",
+          "message": "Merge pull request #372 from nightly-labs/force-ip-on-autho-token\n\nforce ip on autho token",
+          "timestamp": "2023-03-26T16:21:12+02:00",
+          "tree_id": "7d9060bb21b6b05e01e88aa5203ec4e35383496e",
+          "url": "https://github.com/nightly-labs/exchange/commit/c1930cabd53a6654491bf56f5b343582bc84ed12"
+        },
+        "date": 1679840656714,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 66754,
+            "range": "± 8254",
             "unit": "ns/iter"
           }
         ]
