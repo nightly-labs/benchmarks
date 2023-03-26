@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679674971660,
+  "lastUpdate": 1679832183216,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -149,6 +149,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 58444,
             "range": "± 10652",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB😈",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB😈",
+            "username": "NorbertBodziony"
+          },
+          "distinct": true,
+          "id": "ab190fe8ee496c8ea33c1ed85fd1f0226d4f325a",
+          "message": "skip system accounts from liquidation",
+          "timestamp": "2023-03-26T14:00:15+02:00",
+          "tree_id": "93230b75324e8bcd68f3de55530da8b945037d69",
+          "url": "https://github.com/nightly-labs/exchange/commit/ab190fe8ee496c8ea33c1ed85fd1f0226d4f325a"
+        },
+        "date": 1679832182471,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 68605,
+            "range": "± 6618",
             "unit": "ns/iter"
           }
         ]
