@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679927789110,
+  "lastUpdate": 1679935929331,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -419,6 +419,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 68634,
             "range": "± 10198",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "38dad88d791fc704e8c3707f1496e007cd125c88",
+          "message": "Merge pull request #391 from nightly-labs/rate-limiting-on-production\n\nrate limiting on production",
+          "timestamp": "2023-03-27T18:49:50+02:00",
+          "tree_id": "e917d91455c6d8b68e0a8654c2cd3944610fee29",
+          "url": "https://github.com/nightly-labs/exchange/commit/38dad88d791fc704e8c3707f1496e007cd125c88"
+        },
+        "date": 1679935928367,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 69849,
+            "range": "± 9872",
             "unit": "ns/iter"
           }
         ]
