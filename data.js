@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679911731840,
+  "lastUpdate": 1679914300385,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -329,6 +329,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 73366,
             "range": "± 3504",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pomian.konrad@gmail.com",
+            "name": "Konrad Pomian",
+            "username": "K-Pomian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "506cf1d026e2abfa0cfdf7ce1c64e2ceaf6d4071",
+          "message": "Merge pull request #387 from nightly-labs/redundant-deps\n\nRedundant deps",
+          "timestamp": "2023-03-27T12:35:55+02:00",
+          "tree_id": "74471a03a0bd6ffff5158598ca5dae4bdf6f725b",
+          "url": "https://github.com/nightly-labs/exchange/commit/506cf1d026e2abfa0cfdf7ce1c64e2ceaf6d4071"
+        },
+        "date": 1679914299572,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 73156,
+            "range": "± 3841",
             "unit": "ns/iter"
           }
         ]
