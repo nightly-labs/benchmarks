@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679911256004,
+  "lastUpdate": 1679911731840,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -299,6 +299,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 73252,
             "range": "± 12533",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "109511301+Giems@users.noreply.github.com",
+            "name": "Giems",
+            "username": "Giems"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca2d4df76ea5f74abe3943b2f8272110111f9e3f",
+          "message": "Merge pull request #380 from nightly-labs/add-perp-order-id\n\nadd id to perp ws order",
+          "timestamp": "2023-03-27T11:57:25+02:00",
+          "tree_id": "0ddd2ea7696424ecdd6f2d196a08383b877d23da",
+          "url": "https://github.com/nightly-labs/exchange/commit/ca2d4df76ea5f74abe3943b2f8272110111f9e3f"
+        },
+        "date": 1679911731064,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 73366,
+            "range": "± 3504",
             "unit": "ns/iter"
           }
         ]
