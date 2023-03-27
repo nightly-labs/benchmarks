@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679924966598,
+  "lastUpdate": 1679927789110,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -389,6 +389,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 66843,
             "range": "± 7688",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "109511301+Giems@users.noreply.github.com",
+            "name": "Giems",
+            "username": "Giems"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f09cbfd9465c8f8a3eda95a2bf28b984a831fe1d",
+          "message": "Merge pull request #388 from nightly-labs/user-data-additions\n\nUser data additions",
+          "timestamp": "2023-03-27T16:34:15+02:00",
+          "tree_id": "60a7f6c3171ce5367572a9cb0b4982cf2ae692e1",
+          "url": "https://github.com/nightly-labs/exchange/commit/f09cbfd9465c8f8a3eda95a2bf28b984a831fe1d"
+        },
+        "date": 1679927788273,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 68634,
+            "range": "± 10198",
             "unit": "ns/iter"
           }
         ]
