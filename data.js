@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679842428022,
+  "lastUpdate": 1679910446432,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -239,6 +239,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 68863,
             "range": "± 10792",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fd38f0a8eeb1ab4bfb782bafece47a15acc9f676",
+          "message": "Merge pull request #375 from nightly-labs/remove-unnecessary-purging-DB\n\nremove unnecessary purging DB",
+          "timestamp": "2023-03-27T11:44:53+02:00",
+          "tree_id": "3f0fc7504215004c9c6eb5a26db353040a04b17c",
+          "url": "https://github.com/nightly-labs/exchange/commit/fd38f0a8eeb1ab4bfb782bafece47a15acc9f676"
+        },
+        "date": 1679910445664,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 72416,
+            "range": "± 5335",
             "unit": "ns/iter"
           }
         ]
