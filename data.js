@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679914300385,
+  "lastUpdate": 1679924966598,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -359,6 +359,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 73156,
             "range": "± 3841",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b194880e2dacb7873c40f4846268109d01c7e9c",
+          "message": "Merge pull request #390 from nightly-labs/add-missing-timestamps\n\nadd missing timestamps",
+          "timestamp": "2023-03-27T15:45:14+02:00",
+          "tree_id": "6d5df8e7e2cab5db66c4e810ab0bb37a0eca22a0",
+          "url": "https://github.com/nightly-labs/exchange/commit/0b194880e2dacb7873c40f4846268109d01c7e9c"
+        },
+        "date": 1679924965837,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 66843,
+            "range": "± 7688",
             "unit": "ns/iter"
           }
         ]
