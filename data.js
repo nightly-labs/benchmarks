@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679996621670,
+  "lastUpdate": 1680010612630,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -509,6 +509,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 77105,
             "range": "± 3661",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "109511301+Giems@users.noreply.github.com",
+            "name": "Giems",
+            "username": "Giems"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b1579ea536ecb95e2aa4bf1b2da0dd1b725ac1eb",
+          "message": "Merge pull request #362 from nightly-labs/e2e-liquidator-tests\n\ne2e liquidator tests",
+          "timestamp": "2023-03-28T15:29:39+02:00",
+          "tree_id": "7c3d4a2aa924bba827921953dc74cfeffa5f0026",
+          "url": "https://github.com/nightly-labs/exchange/commit/b1579ea536ecb95e2aa4bf1b2da0dd1b725ac1eb"
+        },
+        "date": 1680010611322,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 76999,
+            "range": "± 2574",
             "unit": "ns/iter"
           }
         ]
