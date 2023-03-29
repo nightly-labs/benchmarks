@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680082285699,
+  "lastUpdate": 1680088012699,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -599,6 +599,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 75917,
             "range": "± 4205",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pomian.konrad@gmail.com",
+            "name": "Konrad Pomian",
+            "username": "K-Pomian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3160db596c557f0bae76af95681e216284bd0784",
+          "message": "Merge pull request #395 from nightly-labs/refactor-exchange-channels\n\nRefactor exchange channels",
+          "timestamp": "2023-03-29T12:59:16+02:00",
+          "tree_id": "6560c90306c7cc9e84191f4bd42ed4bb475252cc",
+          "url": "https://github.com/nightly-labs/exchange/commit/3160db596c557f0bae76af95681e216284bd0784"
+        },
+        "date": 1680088011868,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 78248,
+            "range": "± 2927",
             "unit": "ns/iter"
           }
         ]
