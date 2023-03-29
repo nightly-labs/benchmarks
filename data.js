@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680076376616,
+  "lastUpdate": 1680082285699,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -569,6 +569,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 75901,
             "range": "± 3711",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pomian.konrad@gmail.com",
+            "name": "Konrad Pomian",
+            "username": "K-Pomian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "63111787947d97a8a998e8ddcdff8c840705f69f",
+          "message": "Merge pull request #406 from nightly-labs/unset-user-id\n\nSet order limit only for users above id of 1k",
+          "timestamp": "2023-03-29T11:29:02+02:00",
+          "tree_id": "611ba099da12b9e03619350a7687dee4081981a6",
+          "url": "https://github.com/nightly-labs/exchange/commit/63111787947d97a8a998e8ddcdff8c840705f69f"
+        },
+        "date": 1680082284863,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 75917,
+            "range": "± 4205",
             "unit": "ns/iter"
           }
         ]
