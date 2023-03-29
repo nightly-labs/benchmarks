@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680010612630,
+  "lastUpdate": 1680076376616,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -539,6 +539,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 76999,
             "range": "± 2574",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f3bf4741974c6ff8c1651d0697ac1ad7783e3fea",
+          "message": "Merge pull request #407 from nightly-labs/add-sell-spot-orders-on-liquidation\n\nadd sell spot orders on liquidation",
+          "timestamp": "2023-03-29T09:47:29+02:00",
+          "tree_id": "d6f9481eb8d7fe84b033b354a28d6193a0220144",
+          "url": "https://github.com/nightly-labs/exchange/commit/f3bf4741974c6ff8c1651d0697ac1ad7783e3fea"
+        },
+        "date": 1680076375803,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 75901,
+            "range": "± 3711",
             "unit": "ns/iter"
           }
         ]
