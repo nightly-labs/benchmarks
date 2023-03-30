@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680174648763,
+  "lastUpdate": 1680185811685,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -689,6 +689,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 75228,
             "range": "± 2553",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d0f4c46d0ba90f5ddcff5e317787dae0038037bd",
+          "message": "Merge pull request #435 from nightly-labs/odin-and-indexes-globals\n\nodin and indexes globals",
+          "timestamp": "2023-03-30T16:14:16+02:00",
+          "tree_id": "074f676d0528740cbace74197a0e5bf00ed186f3",
+          "url": "https://github.com/nightly-labs/exchange/commit/d0f4c46d0ba90f5ddcff5e317787dae0038037bd"
+        },
+        "date": 1680185810863,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 74458,
+            "range": "± 5188",
             "unit": "ns/iter"
           }
         ]
