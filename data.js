@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680088012699,
+  "lastUpdate": 1680172833808,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -629,6 +629,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 78248,
             "range": "± 2927",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cbb93d5fa2fddba0a7575596836b51cae7a25712",
+          "message": "Merge pull request #424 from nightly-labs/move-perp-positon-channels\n\nmove perp positon channels",
+          "timestamp": "2023-03-30T12:38:02+02:00",
+          "tree_id": "0f9c22484abf7bd7c09701a11d5c1af7f873c9b1",
+          "url": "https://github.com/nightly-labs/exchange/commit/cbb93d5fa2fddba0a7575596836b51cae7a25712"
+        },
+        "date": 1680172832991,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 75560,
+            "range": "± 3804",
             "unit": "ns/iter"
           }
         ]
