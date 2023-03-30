@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680172833808,
+  "lastUpdate": 1680174648763,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -659,6 +659,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 75560,
             "range": "± 3804",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4eccf6850bff14edd840f642bb8b2f19db7abeee",
+          "message": "Merge pull request #432 from nightly-labs/add-global-config-lazy-state\n\nadd global config lazy state",
+          "timestamp": "2023-03-30T13:02:02+02:00",
+          "tree_id": "17326797ff13befc8d65f71ae49aff011fd9a82b",
+          "url": "https://github.com/nightly-labs/exchange/commit/4eccf6850bff14edd840f642bb8b2f19db7abeee"
+        },
+        "date": 1680174647916,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 75228,
+            "range": "± 2553",
             "unit": "ns/iter"
           }
         ]
