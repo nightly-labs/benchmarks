@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680188046327,
+  "lastUpdate": 1680267562190,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -749,6 +749,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 75735,
             "range": "± 3408",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "109511301+Giems@users.noreply.github.com",
+            "name": "Giems",
+            "username": "Giems"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7dd7201fad113e67134e125257a14bed8994a1b7",
+          "message": "Merge pull request #446 from nightly-labs/e2e-margin-tests\n\nE2e margin tests",
+          "timestamp": "2023-03-31T14:53:01+02:00",
+          "tree_id": "445fa8e9fda124b5e6e13feda059b18455b68b05",
+          "url": "https://github.com/nightly-labs/exchange/commit/7dd7201fad113e67134e125257a14bed8994a1b7"
+        },
+        "date": 1680267561354,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 77162,
+            "range": "± 2121",
             "unit": "ns/iter"
           }
         ]
