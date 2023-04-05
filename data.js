@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680700261669,
+  "lastUpdate": 1680713827971,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -989,6 +989,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 77601,
             "range": "± 9933",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b3e82d04d9dee9898584abc3e955a133b1fdadc5",
+          "message": "Merge pull request #486 from nightly-labs/move-ENV-to-lazy-state\n\nmove ENV to lazy state",
+          "timestamp": "2023-04-05T18:54:54+02:00",
+          "tree_id": "83d1e763dd2fdc384fc4b7b09e08188517531885",
+          "url": "https://github.com/nightly-labs/exchange/commit/b3e82d04d9dee9898584abc3e955a133b1fdadc5"
+        },
+        "date": 1680713827150,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 75727,
+            "range": "± 3893",
             "unit": "ns/iter"
           }
         ]
