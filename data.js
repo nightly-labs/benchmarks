@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680698909564,
+  "lastUpdate": 1680700261669,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -959,6 +959,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 74592,
             "range": "± 5859",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d0c2905e4c3d100b1f96c581bfc71d8e29af2e64",
+          "message": "Merge pull request #485 from nightly-labs/fix-race-condition-resolving-order\n\nFix race condition resolving order",
+          "timestamp": "2023-04-05T15:08:30+02:00",
+          "tree_id": "d984db14940dc39c1cc06b948570ca3cfcab442e",
+          "url": "https://github.com/nightly-labs/exchange/commit/d0c2905e4c3d100b1f96c581bfc71d8e29af2e64"
+        },
+        "date": 1680700260840,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 77601,
+            "range": "± 9933",
             "unit": "ns/iter"
           }
         ]
