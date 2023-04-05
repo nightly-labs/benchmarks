@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680698771052,
+  "lastUpdate": 1680698909564,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -929,6 +929,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 76305,
             "range": "± 6744",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8ef1398fb890b90051e006a3a0f33240d22e741a",
+          "message": "Merge pull request #481 from nightly-labs/add-auth-on-sub-user\n\nadd auth on sub user",
+          "timestamp": "2023-04-05T14:45:43+02:00",
+          "tree_id": "8264e944767a09796e98217ce1c8868ae2e6cb34",
+          "url": "https://github.com/nightly-labs/exchange/commit/8ef1398fb890b90051e006a3a0f33240d22e741a"
+        },
+        "date": 1680698908726,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 74592,
+            "range": "± 5859",
             "unit": "ns/iter"
           }
         ]
