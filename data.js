@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680674997214,
+  "lastUpdate": 1680698771052,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -899,6 +899,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 78405,
             "range": "± 4882",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "45402225+robertg93@users.noreply.github.com",
+            "name": "Robert Godula",
+            "username": "robertg93"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ea3714b972fc007d0e46c6dcffb6354a6cc876ab",
+          "message": "Merge pull request #484 from nightly-labs/init-data-testing\n\nInit data testing",
+          "timestamp": "2023-04-05T14:43:53+02:00",
+          "tree_id": "ab5505e9e792c486818e2799aac5af91fd3110e0",
+          "url": "https://github.com/nightly-labs/exchange/commit/ea3714b972fc007d0e46c6dcffb6354a6cc876ab"
+        },
+        "date": 1680698770250,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 76305,
+            "range": "± 6744",
             "unit": "ns/iter"
           }
         ]
