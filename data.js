@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680713827971,
+  "lastUpdate": 1680780092656,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -1019,6 +1019,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 75727,
             "range": "± 3893",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "45402225+robertg93@users.noreply.github.com",
+            "name": "Robert Godula",
+            "username": "robertg93"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8eb56a75dedba4e1109aa1c0eb98d7cf90c24450",
+          "message": "Merge pull request #403 from nightly-labs/refactor-register\n\nrefactor register",
+          "timestamp": "2023-04-06T13:19:22+02:00",
+          "tree_id": "cd3bdd1451495d16e63d7026cc0a4e5aef362525",
+          "url": "https://github.com/nightly-labs/exchange/commit/8eb56a75dedba4e1109aa1c0eb98d7cf90c24450"
+        },
+        "date": 1680780091663,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 78028,
+            "range": "± 2692",
             "unit": "ns/iter"
           }
         ]
