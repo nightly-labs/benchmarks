@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680785932294,
+  "lastUpdate": 1680790007376,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -1079,6 +1079,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 76503,
             "range": "± 4373",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "109511301+Giems@users.noreply.github.com",
+            "name": "Giems",
+            "username": "Giems"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6f5c74538e08242e660b7026bf688fe7050892d6",
+          "message": "Merge pull request #493 from nightly-labs/liquidator-margin-tests\n\nLiquidator margin tests",
+          "timestamp": "2023-04-06T16:04:35+02:00",
+          "tree_id": "06f3e9d99b7272e9de166b168f57c6627928e001",
+          "url": "https://github.com/nightly-labs/exchange/commit/6f5c74538e08242e660b7026bf688fe7050892d6"
+        },
+        "date": 1680790006643,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 76540,
+            "range": "± 3408",
             "unit": "ns/iter"
           }
         ]
