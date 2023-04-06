@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680780092656,
+  "lastUpdate": 1680785932294,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -1049,6 +1049,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 78028,
             "range": "± 2692",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "31ba70fbb9e3f2741a5a55159de85faf32b82cb8",
+          "message": "Merge pull request #488 from nightly-labs/add-validation-of-orders-on-API\n\nadd validation of orders on API",
+          "timestamp": "2023-04-06T14:56:35+02:00",
+          "tree_id": "a4a27e2473515bd0cb118d695b860688085af5b3",
+          "url": "https://github.com/nightly-labs/exchange/commit/31ba70fbb9e3f2741a5a55159de85faf32b82cb8"
+        },
+        "date": 1680785931473,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 76503,
+            "range": "± 4373",
             "unit": "ns/iter"
           }
         ]
