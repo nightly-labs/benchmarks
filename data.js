@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680790007376,
+  "lastUpdate": 1680865853014,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -1109,6 +1109,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 76540,
             "range": "± 3408",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "109511301+Giems@users.noreply.github.com",
+            "name": "Giems",
+            "username": "Giems"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "48373b14fe8719bf9fa4d81d0885bdaaec2891e4",
+          "message": "Merge pull request #496 from nightly-labs/remove-oncecell-margin-module\n\nRemove oncecell margin module",
+          "timestamp": "2023-04-07T13:08:43+02:00",
+          "tree_id": "7a0bae43cc7daef72c076952228ceff323a5b0c3",
+          "url": "https://github.com/nightly-labs/exchange/commit/48373b14fe8719bf9fa4d81d0885bdaaec2891e4"
+        },
+        "date": 1680865852296,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 74902,
+            "range": "± 3494",
             "unit": "ns/iter"
           }
         ]
