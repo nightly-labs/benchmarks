@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680865853014,
+  "lastUpdate": 1681212572248,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -1139,6 +1139,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 74902,
             "range": "± 3494",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pomian.konrad@gmail.com",
+            "name": "Konrad Pomian",
+            "username": "K-Pomian"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae7bbf90c5e40bcb2a9da9a68fcbc960da89ad9e",
+          "message": "Merge pull request #506 from nightly-labs/me-add-parially-filled\n\nMe add parially filled",
+          "timestamp": "2023-04-11T13:27:21+02:00",
+          "tree_id": "46a340f1f6620d8227444c213d55ab8759e0c09a",
+          "url": "https://github.com/nightly-labs/exchange/commit/ae7bbf90c5e40bcb2a9da9a68fcbc960da89ad9e"
+        },
+        "date": 1681212571480,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 77026,
+            "range": "± 2532",
             "unit": "ns/iter"
           }
         ]
