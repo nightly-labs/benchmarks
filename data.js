@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681900806244,
+  "lastUpdate": 1681908554260,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -1259,6 +1259,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 74194,
             "range": "± 9108",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "97de43f408ae2add564ca1d1b1bc6d2ea2b05f0a",
+          "message": "Merge pull request #560 from nightly-labs/preflight-max-age\n\nSet Access-Control-Max-Age to 10 min",
+          "timestamp": "2023-04-19T14:37:54+02:00",
+          "tree_id": "1283f0c5fec2ba43aa433e6327546ba8beb9e6a1",
+          "url": "https://github.com/nightly-labs/exchange/commit/97de43f408ae2add564ca1d1b1bc6d2ea2b05f0a"
+        },
+        "date": 1681908553379,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 76095,
+            "range": "± 7846",
             "unit": "ns/iter"
           }
         ]
