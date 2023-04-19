@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681815632596,
+  "lastUpdate": 1681900806244,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -1229,6 +1229,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 78068,
             "range": "± 5863",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "98222664+jandutkiewicz0309@users.noreply.github.com",
+            "name": "Jan Dutkiewicz",
+            "username": "jandutkiewicz0309"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d76f0fd50411a5ea1a1535ba52f072d62d043a5",
+          "message": "Merge pull request #578 from nightly-labs/exchange-fix-email-confirmation\n\nExchange fix email confirmation",
+          "timestamp": "2023-04-19T12:27:18+02:00",
+          "tree_id": "778a9b550d729ed4c3dc038e1c68cb990806af17",
+          "url": "https://github.com/nightly-labs/exchange/commit/0d76f0fd50411a5ea1a1535ba52f072d62d043a5"
+        },
+        "date": 1681900805440,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 74194,
+            "range": "± 9108",
             "unit": "ns/iter"
           }
         ]
