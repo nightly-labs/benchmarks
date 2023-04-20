@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681984249343,
+  "lastUpdate": 1681988045982,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -1319,6 +1319,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 74857,
             "range": "± 9840",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2e34c911b4640923314c7ca592d5c6c17e6d501",
+          "message": "Merge pull request #586 from nightly-labs/exchange-change-structure-emailConfirmation\n\nexchange: change structure in email confirmation",
+          "timestamp": "2023-04-20T12:49:34+02:00",
+          "tree_id": "b6719d8e76b0640c93beede957d1a23ce5344925",
+          "url": "https://github.com/nightly-labs/exchange/commit/d2e34c911b4640923314c7ca592d5c6c17e6d501"
+        },
+        "date": 1681988045141,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 77111,
+            "range": "± 6853",
             "unit": "ns/iter"
           }
         ]
