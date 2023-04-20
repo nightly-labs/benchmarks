@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1681908554260,
+  "lastUpdate": 1681984249343,
   "repoUrl": "https://github.com/nightly-labs/exchange",
   "entries": {
     "Rust Benchmark": [
@@ -1289,6 +1289,36 @@ window.BENCHMARK_DATA = {
             "name": "WS/get_user_data_benchmark",
             "value": 76095,
             "range": "± 7846",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB😈",
+            "username": "NorbertBodziony"
+          },
+          "committer": {
+            "email": "norbertbodziony@gmail.com",
+            "name": "NB😈",
+            "username": "NorbertBodziony"
+          },
+          "distinct": true,
+          "id": "df2676b1791341131990807012e456a68db52d5b",
+          "message": "fix  ws overflow",
+          "timestamp": "2023-04-20T11:48:35+02:00",
+          "tree_id": "175480c1857b522f1c350db82d1bc206f40f3722",
+          "url": "https://github.com/nightly-labs/exchange/commit/df2676b1791341131990807012e456a68db52d5b"
+        },
+        "date": 1681984248554,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "WS/get_user_data_benchmark",
+            "value": 74857,
+            "range": "± 9840",
             "unit": "ns/iter"
           }
         ]
